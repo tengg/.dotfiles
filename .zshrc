@@ -20,7 +20,7 @@ ZSH_THEME="dpoggi"
 # DISABLE_LS_COLORS="true"
 
 # Uncomment the following line to disable auto-setting terminal title.
- DISABLE_AUTO_TITLE="true"
+# DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
 # ENABLE_CORRECTION="true"
@@ -45,7 +45,7 @@ ZSH_THEME="dpoggi"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git autojump osx zsh-syntax-highlighting zsh-autosuggestions)
+plugins=(git autojump osx zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -55,7 +55,7 @@ ZSH_TMUX_AUTOSTART="true"
 ZSH_TMUX_AUTOSTART_ONCE="TRUE"
 
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/Users/tengg/Library/Android/sdk/platform-tools:/Users/tengg/Library/Android/sdk/tools"
+export PATH="$PATH:/Users/tengg/Library/Android/sdk/platform-tools:/Users/tengg/Library/Android/sdk/tools"
 export GOPATH="/Users/tengg/Developer/go"
 export VISUAL="/usr/local/bin/vi"
 # export MANPATH="/usr/local/man:$MANPATH"
