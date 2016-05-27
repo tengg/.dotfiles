@@ -1,0 +1,8 @@
+alias dev='cd /Users/tengg/Developer'
+alias sle='cd /System/Library/Extensions'
+alias em='emacsclient -t'
+alias -s gz='tar -xzvf'
+alias -s tgz='tar -xzvf'
+alias -s zip='unzip'
+alias -s bz2='tar -xjvf'
+alias home='ssh -L 10225:localhost:5900 home.gt-nuage.com -p 2222'
