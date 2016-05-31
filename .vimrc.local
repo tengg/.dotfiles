@@ -1,2 +1,3 @@
 set wrap
 set nospell
+autocmd filetype crontab setlocal nobackup nowritebackup
