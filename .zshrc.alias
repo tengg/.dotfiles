@@ -10,3 +10,4 @@ alias repair_perm='sudo /usr/libexec/repair_packages --repair --standard-pkgs --
 alias vv='source env/bin/activate'
 alias de='deactivate'
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+alias airport='/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport'
